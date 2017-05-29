@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Tamaño de letra Login-->
+    <dimen name="tamaño_letra">20sp</dimen>
+    <dimen name="padding_login">32dp</dimen>
+    <dimen name="letra_nocuenta">16sp</dimen>
+    <dimen name="margin_form_user">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--Cardview-->
+    <dimen name="cardview_picture">200dp</dimen>
+    <dimen name="cardview_cornerRadius">4dp</dimen>
+    <dimen name="textsiZe_card_name_user">25sp</dimen>
+    <dimen name="elevation_Card">4dp</dimen>
+    <dimen name="textsiZe_timeword_card">15sp</dimen>
+    <dimen name="textsiZe_timewordcard_card">15sp</dimen>
+    <dimen name="margin_timeword_card">5dp</dimen>
+    <dimen name="like_margintop">10dp</dimen>
+
+
+    <!--Bottom bar-->
+    <dimen name="bottom_barheigth">70dp</dimen>
+    <dimen name="margin_bottom_card">8dp</dimen>
+
+</resources>

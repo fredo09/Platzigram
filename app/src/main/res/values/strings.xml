@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Platzigram</string>
+    <!-- Para Componentes-->
+    <string name="nombre_de_usuario">Nombre de Usuario</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="login">LOGIN</string>
+
+    <string name="no_cuenta">¿No tienes Cuenta?, </string>
+    <string name="Nueva_Cuenta">Crea una aqui!</string>
+    <string name="Correo">Correo</string>
+    <string name="Name">Nombre</string>
+    <string name="form_usuario">Usuario</string>
+    <string name="Otro_pass">Confirma Contraseña</string>
+    <string name="btn_unete">Unete</string>
+
+    <!--string para toolbar-->
+    <string name="tittle_create_user">Crea un Usuario</string>
+    <string name="title_activity_mostrando">mostrandoActivity</string>
+    <string name="namecard">Uriel Ramirez</string>
+    <string name="timeword_card">Hace</string>
+    <string name="timewordcard_card">4 dias</string>
+    <string name="likeNumber_card">10 Me Gusta</string>
+
+    <!--Tabs BottomBar-->
+  <string name="tab_buscar">Buscar</string>
+
+
+  <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Home">Home</string>
+</resources>

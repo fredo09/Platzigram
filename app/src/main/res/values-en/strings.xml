@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Para Componentes-->
+    <string name="nombre_de_usuario">UserName</string>
+    <string name="contrasenia">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="btn_unete">Unete</string>
+    <string name="timewordcard_card">4 dias</string>
+    <string name="likeNumber_card">10 Me Gusta</string>
+
+<!--Tabs Bottombar-->
+    <string name="tab_buscar">Search</string>
+    <string name="Home">Home</string>
+</resources>
