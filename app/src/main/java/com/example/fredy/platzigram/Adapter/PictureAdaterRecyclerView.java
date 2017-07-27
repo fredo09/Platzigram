@@ -1,6 +1,7 @@
 package com.example.fredy.platzigram.Adapter;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +11,8 @@ import android.widget.TextView;
 
 import com.example.fredy.platzigram.R;
 import com.example.fredy.platzigram.model.Picture;
+import com.example.fredy.platzigram.view.PictureDetalleActivity;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -37,13 +40,23 @@ public class PictureAdaterRecyclerView extends RecyclerView.Adapter<PictureAdate
         return new PictureViewHolder(view);//enviamos ala clase
     }
 
-    //Asocia los elemetos con el codigo java
+    //Asocia los elemetos con el codigo java trae los elmemtos que hay en la vista
     @Override
     public void onBindViewHolder(PictureViewHolder holder, int position) {
         Picture picture=pictures.get(position);
         holder.username.setText(picture.getUserName());
         holder.times_card.setText(picture.getTime());
         holder.likes_number.setText(picture.getLikes_number());
+        Picasso.with(activity).load(picture.getPicture()).into(holder.picture_Card);
+
+        //Poniendo el evento Onclick En el recyclerview
+        holder.picture_Card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(activity, PictureDetalleActivity.class);
+                activity.startActivity(intent);
+            }
+        });
     }
 
     //optiene el tamaño de l array y lo recorre

@@ -6,6 +6,7 @@
     cardview:cardElevation="@dimen/elevation_Card"
     cardview:cardCornerRadius="@dimen/cardview_cornerRadius"
     android:layout_marginBottom="@dimen/margin_bottom_card"
+    android:elevation="@dimen/ele_4dps"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:cardview="http://schemas.android.com/apk/res-auto">
 

@@ -24,5 +24,19 @@
     <!--Bottom bar-->
     <dimen name="bottom_barheigth">70dp</dimen>
     <dimen name="margin_bottom_card">8dp</dimen>
+    <dimen name="ele_4dps">4dp</dimen>
+    <dimen name="elevation_toolbar">8dp</dimen>
+    <dimen name="elevation_floating_button">16dp</dimen>
+    <dimen name="appBarlayout_height">256dp</dimen>
+    <dimen name="textsize_usernamedetail">25sp</dimen>
+    <dimen name="textsize_likenumberdetail">15sp</dimen>
+    <dimen name="segundonumberdetail">7dp</dimen>
+    <dimen name="diveder_detalle">1dp</dimen>
+    <dimen name="titulo_img_Detalle">20dp</dimen>
+    <dimen name="contenido_img_pading">35dp</dimen>
+    <dimen name="NameProfile">30sp</dimen>
+    <dimen name="circle_ImageProfile">160dp</dimen>
+    <dimen name="circle_ImageProfile_margin">30dp</dimen>
+    <dimen name="elevation_imagenProfile">10dp</dimen>
 
 </resources>

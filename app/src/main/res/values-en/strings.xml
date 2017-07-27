@@ -11,4 +11,7 @@
 <!--Tabs Bottombar-->
     <string name="tab_buscar">Search</string>
     <string name="Home">Home</string>
+    <string name="usernameDetalle">UsuarioX</string>
+    <string name="likeDetalle">Me gusta</string>
+    <string name="titulo_img_Detalle">\"Todo Copas en la Playa\"</string>
 </resources>

@@ -34,7 +34,7 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         view=inflater.inflate(R.layout.fragment_home, container, false);
-        setToolbar("Home",false,view); //lamando al metodo
+        setToolbar(getResources().getString(R.string.tab_home),false,view); //lamando al metodo
         setRecyclerview();
 
         //formade ver la lista vertical
@@ -59,10 +59,10 @@ public class HomeFragment extends Fragment {
     //llenando el picture class
     public ArrayList<Picture> createpicture(){
         ArrayList<Picture> pictures=new ArrayList<>();
-        pictures.add(new Picture("http://www.novalandtours.com/images/guide/guilin.jpg","alfredo","2 dias","100"));
-        pictures.add(new Picture("http://www.novalandtours.com/images/guide/guilin.jpg","Gomez","10 dias","1"));
-        pictures.add(new Picture("http://www.novalandtours.com/images/guide/guilin.jpg","Memo","5 dias","10"));
-        pictures.add(new Picture("http://www.novalandtours.com/images/guide/guilin.jpg","Pepe","100 dias","1000"));
+        pictures.add(new Picture("http://www.novalandtours.com/images/guide/guilin.jpg","alfredo","2 dias","100 Me Gusta"));
+        pictures.add(new Picture("http://www.novalandtours.com/images/guide/guilin.jpg","Gomez","10 dias","1 Me Gusta"));
+        pictures.add(new Picture("http://www.novalandtours.com/images/guide/guilin.jpg","Memo","5 dias","10 Me Gusta"));
+        pictures.add(new Picture("http://www.novalandtours.com/images/guide/guilin.jpg","Pepe","100 dias","1000 Me Gusta"));
         return pictures;
     }
 

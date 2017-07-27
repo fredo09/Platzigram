@@ -20,12 +20,19 @@
     <string name="timeword_card">Hace</string>
     <string name="timewordcard_card">4 dias</string>
     <string name="likeNumber_card">10 Me Gusta</string>
+    <!--Home de la pagina principal-->
+    <string name="tab_home">Home</string>
 
     <!--Tabs BottomBar-->
-  <string name="tab_buscar">Buscar</string>
+    <string name="tab_buscar">Buscar</string>
 
 
-  <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="Home">Home</string>
+    <string name="usernameDetalle">UsuarioX</string>
+    <string name="likeDetalle">Me gusta</string>
+    <string name="titulo_img_Detalle">\"Todo Copas en la Playa\"</string>
+    <string name="contenido_img_Detalle">El contenido de la imagen seleccionada para ver como esta todo esto en el diseño de la interfaz y como se vera ya despues de su lanzmiento y asi es
+        como se desarrolla apps en android studio con integracion de material desing aprendiendo android muy bonito  </string>
 </resources>
